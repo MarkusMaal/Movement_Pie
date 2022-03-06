@@ -1,0 +1,32 @@
+{
+	"name": "portal",
+	"author": "Markus Maal",
+	"texture": "__CONVERTED_portal.png",
+	"x": 2,
+	"y": 1,
+	"x2": 19,
+	"y2": 0,
+	"character": "?",
+	"character2": "@",
+	"bulletl": "!",
+	"bulletr": ".",
+	"finish_x": 19,
+	"finish_x2": 19,
+	"high": 12,
+	"wide": 8,
+	"gravity": 0,
+	"jump": 0,
+	"data": [
+		"### ##--------------",
+		"-#####--------------",
+		"-#####--------------",
+		"-#####--------------",
+		"-## ##--------------"
+	],
+	"walls": [
+		"5x", "5x2", "5x3", "5x4"
+	],
+	"script": [
+		"if (plr.x, plr.y) == (2, 4): plr.Teleport(1, 1)"
+	]
+}

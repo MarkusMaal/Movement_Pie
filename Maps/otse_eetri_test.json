@@ -1,0 +1,28 @@
+{
+	"name": "otse_eetri_test",
+	"author": "Markus Maal",
+	"texture": "__CONVERTED_otse_eetri_test.png",
+	"x": 1,
+	"y": 3,
+	"x2": 19,
+	"y2": 0,
+	"character": "?",
+	"character2": "@",
+	"bulletl": "!",
+	"bulletr": ".",
+	"finish_x": 19,
+	"finish_x2": 19,
+	"high": 12,
+	"wide": 8,
+	"gravity": 0,
+	"jump": 0,
+	"data": [
+		"##### #####--------#",
+		"    ###   #--------#",
+		"    ##  # ##-------#",
+		"        #  ##------#"
+	],
+	"walls": [
+		"x", "1x", "2x", "3x", "4x", "5x", "8x", "9x", "10x", "11x", "x1", "5x1", "7x1", "11x1", "x2", "5x2", "6x2", "9x2", "11x2", "x3", "9x3", "12x3", "x4", "1x4", "2x4", "3x4", "4x4", "5x4", "6x4", "7x4", "8x4", "9x4", "13x4", "x1", "5x1", "7x1"
+	]
+}

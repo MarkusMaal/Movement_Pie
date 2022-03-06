@@ -1,0 +1,26 @@
+{
+	"name": "menu_test_part3",
+	"author": "Markus Maal",
+	"texture": "__CONVERTED_menu_test_part3.png",
+	"x": 0,
+	"y": 2,
+	"x2": 9,
+	"y2": 2,
+	"character": "%",
+	"character2": "&",
+	"bulletl": "/",
+	"bulletr": "(",
+	"finish_x": 19,
+	"finish_x2": 19,
+	"high": 12,
+	"wide": 8,
+	"gravity": 0,
+	"jump": 0,
+	"data": [
+		"####################",
+		"# -?@!#-.-@#########",
+		"##,.ä#ä.õü##########",
+		"#,~|?>ä|.<@!########",
+		"#_:;#¤.õü_##########"
+	]
+}

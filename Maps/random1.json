@@ -1,0 +1,28 @@
+{
+	"name": "random1",
+	"author": "Markus Maal",
+	"texture": "__CONVERTED_random1.png",
+	"x": 4,
+	"y": 1,
+	"x2": 8,
+	"y2": 2,
+	"character": ",",
+	"character2": "ä",
+	"bulletl": "õ",
+	"bulletr": "ü",
+	"finish_x": 0,
+	"finish_y": 4,
+	"finish_x2": 4,
+	"finish_y2": 1,
+	"high": 12,
+	"wide": 8,
+	"gravity": 0,
+	"jump": 0,
+	"data": [
+		"# # ####  ##- ## #  ",
+		"#-   -#- ##  #  #   ",
+		" ## -       ####    ",
+		"# #     - #  #-#### ",
+		" #- # # # - # # #   "
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"name": "tree",
+	"author": "MarkusMaal",
+	"texture": "__CONVERTED_tree.png",
+	"x": 3,
+	"y": 1,
+	"x2": 19,
+	"y2": -1,
+	"character": "?",
+	"character2": "@",
+	"bulletl": "!",
+	"bulletr": ".",
+	"finish_x": 15,
+	"finish_y": 3,
+	"finish_x2": 19,
+	"high": 12,
+	"wide": 8,
+	"gravity": 0,
+	"jump": 0,
+	"data": [
+		"# #######--#########",
+		" #######----########",
+		"# #######  #########",
+		"# #######  #### ####",
+		"--------------------"
+	],
+	"walls": [
+		"9x", "9x2", "8x4", "11x4", "12x4", "7x4", "1x3", "10x", "11x1", "10x2", "10x3", "1x3", "10x"
+	],
+	"script": [
+		"if (plr.x, plr.y) == (1, 2): plr.Teleport(13, 3)",
+		"if (plr.x, plr.y) == (0, 4): plr.Teleport(-1, 3)",
+		"if (plr.x, plr.y) == (1, 4): plr.Teleport(0, 3)",
+		"if (plr.x, plr.y) == (2, 4): plr.Teleport(1, 3)",
+		"if (plr.x, plr.y) == (3, 4): plr.Teleport(2, 3)",
+		"if (plr.x, plr.y) == (4, 4): plr.Teleport(3, 3)",
+		"if (plr.x, plr.y) == (5, 4): plr.Teleport(4, 3)",
+		"if (plr.x, plr.y) == (6, 4): plr.Teleport(5, 3)",
+		"if (plr.x, plr.y) == (9, 3): plr.Teleport(7, 3)",
+		"if (plr.x, plr.y) == (8, 1): plr.Teleport(6, 1)",
+		"if (plr.x, plr.y) == (1, 4): plr.Teleport(13, 3)",
+		"if (plr.x, plr.y) == (0, 1): plr.Teleport(13, 3)",
+		"if (plr.x, plr.y) == (1, 0): plr.Teleport(13, 3)",
+		"if (plr.x, plr.y) == (0, 1): plr.Teleport(13, 3)",
+		"if (plr.x, plr.y) == (1, 0): plr.Teleport(13, 3)"
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"name": "Shootable object and movable object test",
+	"author": "Markus Maal",
+	"texture": "texture.png",
+	"x": 3,
+	"y": 3,
+	"x2": 19,
+	"y2": 4,
+	"high": 30,
+	"wide": 30,
+	"gravity": 0,
+	"jump": 0,
+	"data": [
+		"------------???????-",
+		"------------------??",
+		"---|||||-----------?",
+		"-------------------?",
+		"--------------------"
+	],
+	"entities": [
+		"12x1x.", "17x3x.", "15x1x.", "10x3x.", "14x3x.", "8x1x."
+	],
+	"walls": [
+		"12x", "13x", "14x", "15x", "16x", "17x", "18x", "18x1", "19x1", "19x2", "19x3"
+	],
+	"script": [
+		"if (plr.bx, plr.by) == (3, 2): lvl.ChangeData((plr.bx, plr.by), \"-\")",
+		"if (plr.bx, plr.by) == (4, 2): lvl.ChangeData((plr.bx, plr.by), \"-\")",
+		"if (plr.bx, plr.by) == (5, 2): lvl.ChangeData((plr.bx, plr.by), \"-\")",
+		"if (plr.bx, plr.by) == (6, 2): lvl.ChangeData((plr.bx, plr.by), \"-\")",
+		"if (plr.bx, plr.by) == (7, 2): lvl.ChangeData((plr.bx, plr.by), \"-\")"
+	]
+}

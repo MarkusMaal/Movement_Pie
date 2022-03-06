@@ -1,0 +1,26 @@
+{
+	"name": "fun",
+	"author": "Markus Maal",
+	"texture": "__CONVERTED_fun.png",
+	"x": 19,
+	"y": -1,
+	"x2": 19,
+	"y2": -1,
+	"character": "-",
+	"character2": "?",
+	"bulletl": "@",
+	"bulletr": "!",
+	"finish_x": 19,
+	"finish_x2": 19,
+	"high": 12,
+	"wide": 8,
+	"gravity": 0,
+	"jump": 0,
+	"data": [
+		"#####               ",
+		"                    ",
+		"                    ",
+		"                    ",
+		"                    "
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"name": "Random block fill test",
+	"author": "Markus Maal",
+	"texture": "texture.png",
+	"x": 2,
+	"y": 1,
+	"x2": 0,
+	"y2": 2,
+	"high": 30,
+	"wide": 30,
+	"gravity": 0,
+	"jump": 0,
+	"data": [
+		"vttwtttvtw",
+		"vuvwwwuuww",
+		"twtuvtwwuw",
+		"tuutttuuut",
+		"wvtvtvuutu",
+		"wutuuuuttv",
+		"tvwuwwttww",
+		"vwvwvvwutw",
+		"utuwtuvvtt",
+		"vtvwuttwvv"
+	],
+	"walls": [
+		"6x4", "7x4", "7x3", "6x3", "8x3", "8x2", "6x5", "5x5", "4x5", "3x5", "3x6", "1x5", "2x3", "1x3", "1x1", "3x2", "2x8", "x8", "4x9", "5x8", "7x7", "9x4"
+	]
+}

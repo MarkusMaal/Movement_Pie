@@ -1,0 +1,35 @@
+{
+	"name": "Falling boxes are awesome",
+	"author": "Markus Maal",
+	"texture": "texture.png",
+	"x": 1,
+	"y": 1,
+	"x2": 1,
+	"y2": 1,
+	"high": 30,
+	"wide": 30,
+	"gravity": 1,
+	"jump": 0,
+	"data": [
+		"--------------------",
+		"--------------------",
+		"--------------------",
+		"--------------------",
+		"--------------------",
+		"--------------------",
+		"--------------------",
+		"--------------------",
+		"--------------------",
+		"--------------------"
+	],
+	"entities": [
+		"0x1x.", "5x3x.", "9x2x.", "14x4x.", "18x0x."
+	],
+	"script": [
+		"if lvl.entities[0][1] == 9: lvl.entities[0][1] = randint(-10, -1)",
+		"if lvl.entities[1][1] == 9: lvl.entities[1][1] = randint(-10, -1)",
+		"if lvl.entities[2][1] == 9: lvl.entities[2][1] = randint(-10, -1)",
+		"if lvl.entities[3][1] == 9: lvl.entities[3][1] = randint(-10, -1)",
+		"if lvl.entities[4][1] == 9: lvl.entities[4][1] = randint(-10, -1)"
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"name": "full_map",
+	"author": "Markus Maal",
+	"texture": "__CONVERTED_full_map.png",
+	"x": 13,
+	"y": 4,
+	"x2": 24,
+	"y2": 4,
+	"character": "-",
+	"character2": "?",
+	"bulletl": "@",
+	"bulletr": "!",
+	"finish_x": 39,
+	"finish_x2": 39,
+	"high": 12,
+	"wide": 8,
+	"gravity": 0,
+	"jump": 0,
+	"data": [
+		"########################################",
+		"#                                      #",
+		"#                                      #",
+		"#                                      #",
+		"#                                      #",
+		"#                                      #",
+		"#                                      #",
+		"#                                      #",
+		"#                                      #",
+		"########################################"
+	]
+}
