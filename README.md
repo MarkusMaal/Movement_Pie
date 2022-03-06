@@ -1,7 +1,7 @@
 # Movement Pie
-Movement Pie is a Python game based on the idea of Movement Batch. You can see a [demonstration video](https://www.youtube.com/watch?v=wH83EieQVaM) here.
+Movement Pie is a Python game based on the idea of Movement Batch. You can watch a [demonstration video](https://www.youtube.com/watch?v=wH83EieQVaM) here.
 
-![image](https://user-images.githubusercontent.com/45605071/156929319-d153e520-f229-4e08-b684-4532c29b7ff0.png)
+![screenshot](https://user-images.githubusercontent.com/45605071/156929319-d153e520-f229-4e08-b684-4532c29b7ff0.png)
 
 ## Prerequisites
 You need to have Python 3 installed on your computer. It's also strongly recommended to have Pip installed as well.
